@@ -1,0 +1,6 @@
+{
+  "name": "EventPulse & WhatsApp RSVP Hub",
+  "description": "Comprehensive event management, discovery, ticket booking, invitation design with unique QR codes, guest list tracking, and automated WhatsApp bulk messaging API integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
