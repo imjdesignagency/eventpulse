@@ -166,7 +166,11 @@ export const AuthScreen: React.FC = () => {
       await loginGoogle();
     } catch (err: any) {
       console.error('Google auth error:', err);
-      if (err.code !== 'auth/popup-closed-by-user') {
+      if (err.code === 'auth/unauthorized-domain') {
+        setErrorMessage(
+          `Domain (${window.location.hostname}) is not authorized in Firebase. Add "${window.location.hostname}" to Firebase Console -> Authentication -> Settings -> Authorized domains, or use Email/Password sign up.`
+        );
+      } else if (err.code !== 'auth/popup-closed-by-user') {
         setErrorMessage(err.message || 'Google sign-in was cancelled or failed.');
       }
     } finally {
