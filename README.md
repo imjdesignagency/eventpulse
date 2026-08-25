@@ -1,4 +1,4 @@
-# EventPulse 🎟️📲
+# TMB Events 🎟️📲
 
 > Ultra-luxurious event management, RSVP tracking, dynamic QR passes, and automated WhatsApp messaging gateway for live events, galas, conferences, and exclusive gatherings.
 
@@ -18,7 +18,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/eventpulse.git
+git clone https://github.com/imjdesignagency/eventpulse.git
 cd eventpulse
 ```
 

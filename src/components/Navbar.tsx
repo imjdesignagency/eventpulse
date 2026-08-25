@@ -55,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-brand font-bold text-lg tracking-wider text-white group-hover:text-[#D4AF37] transition-colors">
-                    EVENTPULSE
+                    TMB EVENTS
                   </span>
                   <span className="text-[10px] uppercase font-mono tracking-widest px-1.5 py-0.5 rounded bg-[#D4AF37]/15 text-[#D4AF37] border border-[#D4AF37]/30">
                     VIP

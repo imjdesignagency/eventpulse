@@ -489,7 +489,7 @@ export default function App() {
       <footer className="bg-[#0D0D0D] text-[#888888] py-8 border-t border-[#222222] text-xs mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-brand font-bold text-[#D4AF37] tracking-wider">EVENTPULSE</span>
+            <span className="font-brand font-bold text-[#D4AF37] tracking-wider">TMB EVENTS</span>
             <span>• Integrated Event Management, QR Passes & WhatsApp Messaging Engine</span>
           </div>
           <div className="flex items-center gap-4 text-[#777777]">

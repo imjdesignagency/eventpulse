@@ -90,7 +90,7 @@ export const AuthScreen: React.FC = () => {
         phone: phone.trim() !== '+1' ? phone.trim() : undefined,
         company: company.trim() || undefined,
       });
-      setSuccessMessage('Account created successfully! Welcome to EventPulse.');
+      setSuccessMessage('Account created successfully! Welcome to TMB Events.');
     } catch (err: any) {
       console.error('Signup error:', err);
       if (err.code === 'auth/email-already-in-use') {
@@ -216,7 +216,7 @@ export const AuthScreen: React.FC = () => {
               <div>
                 <div className="flex items-center gap-2">
                   <h1 className="font-brand font-bold text-xl tracking-wider text-white">
-                    EVENTPULSE
+                    TMB EVENTS
                   </h1>
                   <span className="text-[10px] uppercase font-mono tracking-widest px-1.5 py-0.5 rounded bg-[#D4AF37]/15 text-[#D4AF37] border border-[#D4AF37]/30 font-bold">
                     VIP
